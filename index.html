@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Brian Christopher F. Aaron — Associate Information Security | PAM/IAM Engineer | CyberArk Specialist. Portfolio." />
+  <title>Brian Aaron — Information Security Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <a href="#hero" class="logo">{BA}</a>
+    <div class="nav-status">▍ sec.online — Taguig, PH</div>
+    <div class="nav-links">
+      <a href="#about">about</a>
+      <a href="#stack">stack</a>
+      <a href="#work">work</a>
+      <a href="#contact">contact</a>
+    </div>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="scan-line"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag">// security.exe</div>
+      <h1 class="hero-name">Brian<br/><span class="accent">Aaron</span></h1>
+      <div class="hero-role">
+        <span class="role-prefix">&gt; </span>
+        <span id="typed-role"></span>
+        <span class="cursor-blink">▍</span>
+      </div>
+      <p class="hero-desc">
+        Securing enterprise identities and privileged access — CyberArk, Delinea, 
+        SAML/SSO, and Active Directory — backed by 7+ years across security, IAM,
+        and application support. Built on precision, process, and zero-trust mindset.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Get in touch →</a>
+        <a href="#work" class="btn-ghost">View experience</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" data-target="7">0</span><span>+</span>
+          <div class="stat-label">Years in IT Security</div>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="4">0</span>
+          <div class="stat-label">Companies Served</div>
+        </div>
+        <div class="stat">
+          <span class="stat-num" data-target="20">0</span><span>+</span>
+          <div class="stat-label">Tools & Platforms</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-terminal">
+      <div class="terminal-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">brian@sec ~</span>
+      </div>
+      <div class="terminal-body" id="terminal-body"></div>
+    </div>
+    <a href="#about" class="scroll-hint">scroll ↓</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">// identity.log</div>
+    <h2 class="section-title">About.</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          An Information Security professional with <strong>7+ years</strong> of hands-on experience 
+          in Privileged Access Management (PAM), Identity & Access Management (IAM), 
+          and enterprise application support. Currently securing privileged accounts at 
+          <strong>Willis Towers Watson</strong>.
+        </p>
+        <p>
+          Previously engineered L2 support at <strong>Delinea (Thycotic)</strong> for CyberArk 
+          and Secret Server across on-premise and cloud environments. Combines deep 
+          technical expertise in SAML, SSO, Active Directory, and PowerShell with 
+          a methodical, root-cause-analysis mindset.
+        </p>
+        <div class="about-cards">
+          <div class="about-card">
+            <span class="about-icon">🔐</span>
+            <strong>Protect</strong>
+            <p>CyberArk provisioning, UAR audits & 90%+ compliance.</p>
+          </div>
+          <div class="about-card">
+            <span class="about-icon">🔍</span>
+            <strong>Diagnose</strong>
+            <p>Root cause analysis, SAML tracing & log forensics.</p>
+          </div>
+          <div class="about-card">
+            <span class="about-icon">⚙️</span>
+            <strong>Automate</strong>
+            <p>Custom SQL scripts, PowerShell & workflow integration.</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="about-badge">
+          <div class="badge-inner">
+            <div class="badge-initials">BA</div>
+            <div class="badge-ring"></div>
+          </div>
+          <div class="badge-label">// since 2018</div>
+        </div>
+        <div class="cert-list">
+          <div class="cert-tag">NSE 1 — Apr 2022</div>
+          <div class="cert-tag">MACH Python Intermediate — Jan 2022</div>
+          <div class="cert-tag">MACH Python Basic — Nov 2021</div>
+          <div class="cert-tag">API Security — Feb 2021</div>
+          <div class="cert-tag">Licensed Electronics Engineer — Oct 2017</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH STACK -->
+  <section id="stack">
+    <div class="section-label">// toolkit.ini</div>
+    <h2 class="section-title">Tech Stack.</h2>
+    <p class="section-sub">Tools & platforms I work in every day</p>
+    <div class="ticker-wrapper">
+      <div class="ticker">
+        <div class="ticker-inner" id="ticker1">
+          <span>🛡 CyberArk</span>
+          <span>🔑 Delinea / Secret Server</span>
+          <span>⚓ SailPoint</span>
+          <span>☁️ Microsoft Azure</span>
+          <span>🪪 SAML SSO (Okta)</span>
+          <span>🗂 Active Directory</span>
+          <span>🗃 ServiceNow</span>
+          <span>📊 Splunk</span>
+          <span>💻 PowerShell</span>
+          <span>🗄 MSSQL / SQL</span>
+          <span>🔭 SAML-Tracer</span>
+          <span>📬 Postman</span>
+          <span>🌐 Wireshark</span>
+          <span>🪟 Azure VSTS</span>
+          <span>🧩 Atlassian</span>
+          <span>🔒 Privilege Manager</span>
+          <span>🖥 VM Admin (Win/Linux)</span>
+          <span>📋 Salesforce</span>
+        </div>
+        <div class="ticker-inner" id="ticker1-clone" aria-hidden="true">
+          <span>🛡 CyberArk</span>
+          <span>🔑 Delinea / Secret Server</span>
+          <span>⚓ SailPoint</span>
+          <span>☁️ Microsoft Azure</span>
+          <span>🪪 SAML SSO (Okta)</span>
+          <span>🗂 Active Directory</span>
+          <span>🗃 ServiceNow</span>
+          <span>📊 Splunk</span>
+          <span>💻 PowerShell</span>
+          <span>🗄 MSSQL / SQL</span>
+          <span>🔭 SAML-Tracer</span>
+          <span>📬 Postman</span>
+          <span>🌐 Wireshark</span>
+          <span>🪟 Azure VSTS</span>
+          <span>🧩 Atlassian</span>
+          <span>🔒 Privilege Manager</span>
+          <span>🖥 VM Admin (Win/Linux)</span>
+          <span>📋 Salesforce</span>
+        </div>
+      </div>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-group">
+        <div class="stack-group-label">PAM / IAM</div>
+        <div class="stack-tags">
+          <span>CyberArk</span><span>Delinea</span><span>Secret Server</span>
+          <span>Privilege Manager</span><span>Connection Manager</span><span>SailPoint</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <div class="stack-group-label">Cloud & Identity</div>
+        <div class="stack-tags">
+          <span>Microsoft Azure</span><span>Okta (SAML SSO)</span><span>MFA</span>
+          <span>Active Directory</span><span>GPOs</span><span>Domain Trust</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <div class="stack-group-label">Scripting & DB</div>
+        <div class="stack-tags">
+          <span>PowerShell</span><span>MSSQL</span><span>SQL</span><span>HTML</span><span>CSS</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <div class="stack-group-label">Monitoring & ITSM</div>
+        <div class="stack-tags">
+          <span>Splunk</span><span>ServiceNow</span><span>Salesforce</span>
+          <span>Event Viewer</span><span>SAML-Tracer</span><span>Postman</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <div class="stack-group-label">Networking</div>
+        <div class="stack-tags">
+          <span>Wireshark</span><span>Firewall</span><span>Load Balancers</span>
+          <span>Port Validation</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <div class="stack-group-label">Dev & Ops</div>
+        <div class="stack-tags">
+          <span>Azure VSTS</span><span>Atlassian</span><span>.Net Apps</span>
+          <span>Agile</span><span>DevOps</span><span>RCA</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="work">
+    <div class="section-label">// career.json</div>
+    <h2 class="section-title">Experience.</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="tl-date">Sep 2023 — Present</span>
+          <span class="tl-company">Willis Towers Watson</span>
+        </div>
+        <div class="timeline-content">
+          <h3>Associate Information Security</h3>
+          <ul>
+            <li>Orchestrated CyberArk user provisioning for swift, accurate access.</li>
+            <li>Led CyberArk maintenance and patching, enhancing system stability and security.</li>
+            <li>Streamlined ticket management for admin rights, CyberArk services, and audits, ensuring timely resolution and compliance.</li>
+            <li>Conducted quarterly User Access Review (UAR) audits, proactively mitigating security risks.</li>
+            <li>Drove non-compliant account remediation, sustaining <strong>90% CyberArk compliance</strong>.</li>
+          </ul>
+          <div class="tl-tags">
+            <span>CyberArk</span><span>UAR Audits</span><span>Compliance</span><span>Provisioning</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="tl-date">Dec 2022 — Sep 2023</span>
+          <span class="tl-company">Delinea (Thycotic)</span>
+        </div>
+        <div class="timeline-content">
+          <h3>Tier II Technical PAM Engineer</h3>
+          <ul>
+            <li>Provided expert L2 support for Privilege Manager (Application Control) across on-premise and Cloud (SaaS) enterprise environments.</li>
+            <li>Configured and troubleshot SSO and MFA issues on SP/IDP platforms, including Okta and Azure.</li>
+            <li>Analyzed and resolved Privilege Manager policy issues via Event Viewer logs.</li>
+          </ul>
+          <div class="tl-tags">
+            <span>Privilege Manager</span><span>Okta</span><span>Azure</span><span>SSO/MFA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="tl-date">Jul 2021 — Nov 2022</span>
+          <span class="tl-company">Delinea (Thycotic)</span>
+        </div>
+        <div class="timeline-content">
+          <h3>Tier II Technical IAM Engineer</h3>
+          <ul>
+            <li>Delivered advanced L2 support for IAM / Secret Server tools for enterprise clients (on-premise and SaaS).</li>
+            <li>Developed custom SQL scripts for precise application reporting.</li>
+            <li>Diagnosed SAML and OAuth authentication issues using SAML-Tracer, PowerShell, and Postman.</li>
+            <li>Integrated external applications like ServiceNow with PAM tools to enhance workflow and security.</li>
+            <li>Administered Active Directory user management, permissions, GPOs, and domain trust.</li>
+            <li>Oversaw Virtual Machine management for Windows and Linux.</li>
+          </ul>
+          <div class="tl-tags">
+            <span>Secret Server</span><span>SAML</span><span>PowerShell</span><span>Active Directory</span><span>ServiceNow</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="tl-date">Jan 2018 — Jun 2021</span>
+          <span class="tl-company">Accenture</span>
+        </div>
+        <div class="timeline-content">
+          <h3>Application Development Associate → Analyst → Senior Analyst</h3>
+          <ul>
+            <li>Provided critical L2 & L3 support for .Net applications, ensuring high availability.</li>
+            <li>Monitored and managed all ServiceNow queues for incidents, changes, and requests.</li>
+            <li>Developed SQL scripts for daily monitoring and advanced data extraction.</li>
+            <li>Conducted thorough Root Cause Analysis (RCA) for issues, implementing preventive solutions.</li>
+            <li>Completed TQ trainings: AI, Agile & DevOps, Blockchain, Cloud, Security, Data, Enterprise Platforms.</li>
+          </ul>
+          <div class="tl-tags">
+            <span>.Net</span><span>ServiceNow</span><span>SQL</span><span>RCA</span><span>Agile</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Certifications block -->
+    <div class="certs-block">
+      <div class="certs-header">
+        <span class="certs-icon">🎓</span>
+        <h3>Licenses & Certifications</h3>
+      </div>
+      <div class="certs-grid">
+        <div class="cert-card"><span class="cert-year">2022</span><div class="cert-name">NSE 1 — Fortinet Network Security</div></div>
+        <div class="cert-card"><span class="cert-year">2022</span><div class="cert-name">MACH Intermediate Python Programming</div></div>
+        <div class="cert-card"><span class="cert-year">2021</span><div class="cert-name">MACH Basic Python Programming</div></div>
+        <div class="cert-card"><span class="cert-year">2021</span><div class="cert-name">API Security Certification</div></div>
+        <div class="cert-card"><span class="cert-year">2017</span><div class="cert-name">Licensed Electronics Engineer (PH)</div></div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">// connect.sh</div>
+    <h2 class="section-title">Contact.</h2>
+    <p class="section-sub">Let's talk security, IAM, or your next project.</p>
+    <div class="contact-grid">
+      <a href="mailto:brianaaron.pub@gmail.com" class="contact-item">
+        <span class="contact-icon">✉</span>
+        <span class="contact-key">// email</span>
+        <span class="contact-val">brianaaron.pub@gmail.com →</span>
+      </a>
+      <a href="https://www.linkedin.com/in/brian-aaron-405643180/" target="_blank" rel="noopener" class="contact-item">
+        <span class="contact-icon">🔗</span>
+        <span class="contact-key">// linkedin</span>
+        <span class="contact-val">brian-aaron-405643180 →</span>
+      </a>
+      <a href="#" class="contact-item">
+        <span class="contact-icon">📍</span>
+        <span class="contact-key">// location</span>
+        <span class="contact-val">Taguig, Philippines →</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="footer-logo">{BA}</span>
+    <span>© Brian Christopher F. Aaron — Designed & built with precision.</span>
+    <a href="#hero">back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
