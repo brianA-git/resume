@@ -2,7 +2,7 @@
    TYPED ROLE ANIMATION
    =========================== */
 const roles = [
-  'Associate Information Security',
+  'Senior Analyst - Information and Cyber Security',
   'PAM / IAM Engineer',
   'CyberArk Specialist',
   'Identity & Access Pro',
@@ -37,16 +37,16 @@ const lines = [
   { type: 'cmd', text: '$ whoami' },
   { type: 'out', text: 'brian.aaron — infosec' },
   { type: 'cmd', text: '$ cat skills.txt' },
-  { type: 'hi',  text: '> CyberArk PAM ✓' },
-  { type: 'hi',  text: '> SAML / SSO / MFA ✓' },
-  { type: 'hi',  text: '> Active Directory ✓' },
-  { type: 'hi',  text: '> PowerShell + SQL ✓' },
+  { type: 'hi', text: '> CyberArk PAM ✓' },
+  { type: 'hi', text: '> SAML / SSO / MFA ✓' },
+  { type: 'hi', text: '> Active Directory ✓' },
+  { type: 'hi', text: '> PowerShell + SQL ✓' },
   { type: 'cmd', text: '$ uptime' },
   { type: 'out', text: '7+ years, no downtime' },
   { type: 'cmd', text: '$ ping wts.com' },
   { type: 'warn', text: 'PONG — 0ms latency' },
   { type: 'cmd', text: '$ status' },
-  { type: 'hi',  text: 'AVAILABLE FOR HIRE ✓' },
+  { type: 'hi', text: 'AVAILABLE FOR HIRE ✓' },
 ];
 
 const termBody = document.getElementById('terminal-body');
